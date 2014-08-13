@@ -7,6 +7,7 @@ use strict;
 use feature "say";
 use Imager;
 use Getopt::Std;
+use POSIX q/strftime/;
 
 =pod
 
