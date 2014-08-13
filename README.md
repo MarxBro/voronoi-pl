@@ -1,7 +1,9 @@
 voronoi-pl
 ==========
 
-#Simple generador de Diagramas de Voronoi.
+# Diagramas de Voronoi.
+## Simple generador en perl.
+
 
 El script puede funcionar sin argumentos.
 Opcionalmente, se pueden utilizar los siguientes switchs:
@@ -12,3 +14,10 @@ Opcionalmente, se pueden utilizar los siguientes switchs:
 
 El archivo final se bautiza como "voronoi_fecha.png".
 
+## Dependencias.
+
+Requiere Imager, que se puede instalar de la siguiente forma:
+
+```bash
+cpanp i Imager
+```
